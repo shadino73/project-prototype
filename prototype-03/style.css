@@ -4,11 +4,6 @@
             box-sizing: border-box;
         }
 
-        body {
-            background-size: cover;
-            background-repeat: no-repeat;
-        }
-
         .area,
         .buttons {
             position: absolute;
@@ -17,7 +12,7 @@
         .area {
             width: 0;
             height: 0;
-/*            background: rgba(0, 200, 0, 0.5);*/
+            /*                        background: rgba(0, 200, 0, 0.5);*/
         }
 
 
@@ -26,7 +21,7 @@
         .buttons {
             width: 200px;
             height: 50px;
-/*            background: rgba(255, 0, 0, 0.5);*/
+            /*            background: rgba(255, 0, 0, 0.5);*/
         }
 
         .area a,
