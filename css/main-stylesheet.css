@@ -1,0 +1,84 @@
+/*
+Main stylesheet for web prototype exercise 2021.
+© 2021 Enno Hyttrek
+studio@ennohyttrek.de
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&display=swap');
+
+
+:root {
+    --cool-sub-black: hsla(200, 13%, 13%, 1);
+    --cool-dark-grey: hsla(200, 13%, 21%, 1);
+    --cool-mid-grey: hsla(200, 13%, 42%, 1);
+    --cool-light-grey: hsla(200, 13%, 76%, 1);
+    --cool-sub-white: hsla(200, 13%, 94%, 1);
+    --accent-a-01: hsla(30, 94%, 34%, 1);
+    --accent-a-02: hsla(30, 94%, 55%, 1);
+    --accent-b-01: hsla(0, 94%, 34%, 1);
+    --accent-b-02: hsla(0, 76%, 55%, 1);
+    --accent-c-01: hsla(200, 94%, 34%, 1);
+    --accent-c-02: hsla(200, 76%, 55%, 1);
+    --accent-d-01: hsla(150, 94%, 21%, 1);
+    --accent-d-02: hsla(150, 55%, 55%, 1);
+}
+
+/*
+RESET
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*
+LAYOUT
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+    padding: 1em 20px;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    background-color: var(--cool-dark-grey);
+    color: var(--cool-light-grey);
+}
+
+header {
+     background-color: var(--accent-b-01);  
+        color: var(--accent-a-02);
+}
+
+main {
+    background-color: var(--cool-sub-white);
+
+}
+
+main,
+main a {
+    color: var(--cool-dark-grey);
+}
+
+main a:hover,
+main a:active {
+    color: var(--accent-a-02);
+}
+
+.workshop-home a {}
